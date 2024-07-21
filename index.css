@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(245, 203, 167);
+}
+.nav-p{
+    background-color: rgb( 235, 152, 78 );
+}
+
+.nav-p .container-fluid .navbar-brand .banner{
+    width: 55px;
+    height: 55px;
+}
+
+.nav-p .container-fluid .navbar-brand:hover{
+    color: white;
+    
+}
+
+.nav-p .container-fluid div ul li a:hover{
+    color: white;
+    
+}
+
+.nav-p .container-fluid div ul .dropdown-menu li a:hover{
+    color: blue;
+    
+}
+
+#container2{
+    background-color: white;
+    margin: 25px;
+
+    border-radius: 20px;
+    transition:2s;
+}
+#container2:hover{
+    background-color: darkgray;
+}
+
+#div4{
+    color: aqua;
+    margin-top: -40px;
+}
+
+#submit:hover{
+    color: yellow;
+    background-color: rgb( 24, 51, 183 );
+    margin-bottom: 10px;
+    
+}
+
+.pagination1{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb( 245, 203, 167 );
+}
+
+
+
+.r1 div:hover{
+    background-color: rgb( 202, 207, 210 );
+}
+
+.r2 div:hover{
+    background-color: rgb( 202, 207, 210 );;
+}
+
+.r3 div:hover{
+    background-color: rgb( 202, 207, 210 );;
+}
+
+aside{
+    background-color: aqua;
+    display: flex;
+    justify-content: right;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb( 202, 207, 210 );;
+    color: brown;
+}

@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(245, 203, 167);
+}
+
+.ropacaballeros section{
+    text-align: center;
+}
+
+.nav-p .container-fluid .navbar-brand .banner{
+    width: 55px;
+    height: 55px;
+}
+
+.nav-p .container-fluid .navbar-brand:hover{
+    color: white;
+    
+}
+
+.nav-p .container-fluid div ul li a:hover{
+    color: white;
+    
+}
+
+.nav-p .container-fluid div ul .dropdown-menu li a:hover{
+    color: blue;
+    
+}
+
+
+
+.productos .ropacaballeros{
+    background:linear-gradient(to bottom, rgb( 149, 165, 166  ), white);
+    border-radius: 20px;
+
+}
+
+.productos .ropadamas{
+    background-color: white;
+
+}
+
+.productos .calzado{
+    background:linear-gradient(to bottom,  white, rgb( 149, 165, 166  ));
+    border-radius: 20px;
+
+}
+
+.pagination1{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb( 245, 203, 167 );
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb( 202, 207, 210 );;
+    color: brown;
+}
