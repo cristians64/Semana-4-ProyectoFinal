@@ -51,3 +51,23 @@ const mostrarErrores = (errores) => {
     }
     alert(mensaje);
 }
+
+const password1= document.getElementById("contraseña")
+const password2= document.getElementById("contraseña2")
+
+function verContraseña(){
+    if(password1.type==="password"){
+        password1.type="text";
+    }else{
+        password1.type="password";
+    }
+
+}
+function verContraseña2(){
+    if(password2.type==="password"){
+        password2.type="text";
+    }else{
+        password2.type="password";
+    }
+}
+
